@@ -13,6 +13,7 @@ def find_item_by_name_in_collection(name, collection)
     NIL
   else
   final_hash
+  binding.pry
 end
 end
 
@@ -23,7 +24,6 @@ def consolidate_cart(cart)
       whole_item[:count] = item_count
       # successfully adds the count, but my item_count is 0 everytime
   end
-  new_cart = cart.uniq
 end
 
 
