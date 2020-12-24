@@ -30,7 +30,6 @@ def consolidate_cart(cart)
   end
   final_cart = cart.uniq 
   final_cart
-  binding.pry
 end
     
     
