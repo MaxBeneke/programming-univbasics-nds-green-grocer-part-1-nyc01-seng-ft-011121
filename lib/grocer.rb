@@ -19,8 +19,12 @@ end
 def consolidate_cart(cart)
   final_hash = {}
   cart.each do |whole_item| 
-    item_count = cart.count(whole_item[:item])
-      whole_item[:count] = item_count
+    item_name = whole_item[:item]
+    
+    
+    
+    #item_count = cart.count(whole_item[:item])
+      #whole_item[:count] = item_count
       # successfully adds the count, but my item_count is 0 everytime
   end
 end
