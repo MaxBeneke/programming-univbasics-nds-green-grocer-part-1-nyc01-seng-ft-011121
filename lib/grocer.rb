@@ -18,7 +18,6 @@ end
 
 def consolidate_cart(cart)
   final_hash = {}
-  binding.pry
   cart.each do |whole_item| 
     item_count = cart.count(whole_item[:item])
     binding.pry
