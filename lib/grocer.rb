@@ -13,7 +13,6 @@ def find_item_by_name_in_collection(name, collection)
     NIL
   else
   final_hash
-  binding.pry
 end
 end
 
