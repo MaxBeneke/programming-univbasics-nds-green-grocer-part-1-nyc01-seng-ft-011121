@@ -31,6 +31,7 @@ def consolidate_cart(cart)
       #whole_item[:count] = item_count
       # successfully adds the count, but my item_count is 0 everytime
   end
+  binding.pry
 end
 
 
