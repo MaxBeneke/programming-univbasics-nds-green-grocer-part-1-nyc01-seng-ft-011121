@@ -17,7 +17,6 @@ end
 end
 
 def consolidate_cart(cart)
-  final_hash = {}
   count_array = []
   cart.each do |whole_item| 
     item_name = whole_item[:item]
