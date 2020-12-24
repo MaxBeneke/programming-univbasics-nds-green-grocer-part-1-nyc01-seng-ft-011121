@@ -26,6 +26,12 @@ def consolidate_cart(cart)
   cart.each do |whole_item| 
     item_name = whole_item[:item]
     final_count = count_array.count(item_name)
+    whole_item[:count] = final_count
+  end
+  final_cart = cart.uniq 
+  final_cart
+  binding.pry
+end
     
     
     
@@ -33,9 +39,6 @@ def consolidate_cart(cart)
     #item_count = cart.count(whole_item[:item])
       #whole_item[:count] = item_count
       # successfully adds the count, but my item_count is 0 everytime
-  end
-  binding.pry
-end
 
 
   
