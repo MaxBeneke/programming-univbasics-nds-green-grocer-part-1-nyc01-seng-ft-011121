@@ -22,7 +22,10 @@ def consolidate_cart(cart)
   cart.each do |whole_item| 
     item_name = whole_item[:item]
     count_array.push(item_name)
-    
+  end
+  cart.each do |whole_item| 
+    item_name = whole_item[:item]
+    final_count = count_array.count(item_name)
     
     
     
